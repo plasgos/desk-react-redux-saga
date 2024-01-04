@@ -1,7 +1,7 @@
 import { put, call, takeLatest } from 'redux-saga/effects';
 import types from './constant';
 import * as actions from './reducer';
-import addresses from '../dummy/addresses.json';
+import addresses from '../../dummy/addresses.json';
 
 function* watchGetAddress(values){
   const {payload} = values;
