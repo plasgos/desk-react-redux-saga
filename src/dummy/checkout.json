@@ -9,6 +9,17 @@
         "shipping_service_type": "reg", // data dari costs
         "shipping_cost": 20000, // data dari costs
         "service_type_id": 5, // data dari costs
+        "drop": false,
+        "cod": true,
+        "cod_fee": 3000,
+        "cod_setting": {
+          "cod_fee": 0.03,
+          "minimum_cod_fee": 3000
+        },
+        "insurance_setting": {
+          "insurance_fee": 0.02,
+          "insurance_add_cost": 5000
+        },
         "sender" : { // data dari warehouse
             "id": 10330,
             "name" : "Nama Toko / Gudang",

@@ -7,7 +7,7 @@ function* watchGetAddress(values){
   const {payload} = values;
   yield put(actions.setIsLoadingGetAddress(true))
   try{
-    // const response = yield call(axios, payload)
+    // const response = yield call(api.address.get, payload)
     // const {data} = response;
     yield put(actions.getAddressSuccess(addresses));
   }catch(e){
